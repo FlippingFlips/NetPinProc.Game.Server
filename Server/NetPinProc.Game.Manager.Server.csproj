@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="6.0.21" />
+		<PackageReference Include="NetPinProc.Game.Sqlite" Version="1.0.1" />
+	</ItemGroup>
+	
+	<ItemGroup>
+	  <ProjectReference Include="..\Client\NetPinProc.Game.Manager.Client.csproj" />
+	  <ProjectReference Include="..\Shared\NetPinProc.Game.Manager.Shared.csproj" />
+	</ItemGroup>
+</Project>
