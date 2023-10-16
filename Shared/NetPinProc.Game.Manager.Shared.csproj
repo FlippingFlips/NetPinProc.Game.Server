@@ -11,6 +11,6 @@
   </ItemGroup>
 
 	<ItemGroup>
-		<PackageReference Include="NetPinProc.Domain" Version="1.0.1" />
+		<PackageReference Include="NetPinProc.Domain" Version="1.0.3" />
 	</ItemGroup>	
 </Project>
